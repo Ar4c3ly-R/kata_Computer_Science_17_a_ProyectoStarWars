@@ -1,0 +1,65 @@
+*{
+    background-color: black;
+}
+.navbar{
+    background-color: black;
+}
+#cuadroBusqueda{
+    height: 500px;
+}
+.nombreInput{
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 25px;
+    width: 300px;
+    background-color: gray;
+    border-color: wheat;
+}
+.buttonBuscar{
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    border-color: aliceblue;
+    font-size: small;
+}
+
+.buttonExtra{
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 200px;
+    background-color: black;
+    border-color: yellow;
+    font-size: small;
+}
+
+.imagenPersonaje{
+    height: 250px;
+    width: 200px;
+}
+.container{
+    width: 300px;
+}
+.cardText{
+    font-family: cursive;
+}
+
+.noResultado{
+    color: rgb(198, 190, 190);
+}
+.noResultados{
+    background-color: aliceblue;
+    border-color: red;
+    height: 30px;
+    color: aliceblue;
+}
+#container_extra{
+    color: whitesmoke;
+    border-radius: 6px;
+}
+
+.card{
+    border-radius: 10px;
+
+}

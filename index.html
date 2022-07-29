@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>STAR WARS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/swapi.js"></script>
+  </head>
+  <body>
+
+    <nav class="navbar ">
+        <div class="container col-1">
+          <a class="navbar-brand" href="#">
+            <img class="d-flex justify-content-start" src= "./img/StarWarsLogo.png" alt="" width="250" height="180">
+          </a>
+        </div>
+        <div class="botones d-flex justify-content-between col-8">
+          <button class="buttonExtra text-white" onclick="todosLosPersonajes()">
+              Ver todos los personajes
+            </button>
+            
+            <button class="buttonExtra text-white" onclick="estaturaPersonajes()">
+                Estatura de personajes
+              </button>
+    
+            <button class="buttonExtra text-white" onclick="buscarGeneroPersonajes()">
+                Género de personajes
+              </button>
+            
+            <select class="buttonExtra text-white" id="opcionesExtras">
+              <option selected>Opciones de búsqueda</option>
+              <option value="alturaPersonaje()">Buscar altura de un personaje</option>
+              <option value="2">Buscar año de nacimiento de un personaje</option>
+              <option value="3">Buscar peso de un personaje</option>
+            </select>
+        </div>
+    </nav>
+    
+    <div class="row d-flex justify-content-center d-flex align-items-center " id="cuadroBusqueda">
+      <div class="col-5" >
+        <div class="col " id="buttonBusqueda">
+          <div class="d-flex justify-content-center d-flex align-items-center ">
+            <input class="nombreInput text-white" id="nombreInput" autocomplete="off" />
+          </div>
+           <div class="d-flex justify-content-center flex-column d-flex align-items-center col">
+            <button class="buttonBuscar text-white" onclick="buscarBtn()">
+              Buscar personaje
+              </button>
+           </div>
+        </div>
+        <div class="row d-flex justify-content-center flex-column d-flex align-items-center col" id="noResultados"> </div>
+      </div>
+
+      <div id="" class="pantallaImagen col">
+            <div class="datosPersonaje row d-flex justify-content-start" id="datosPersonaje">
+              <div class="container col text-white" id="container">
+                <img id="'imagenInicio" src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2018/06/que-orden-ver-peliculas-star-wars.jpg?itok=rTLETD_n" class="d-block w-80 img-fluid" alt="..." style="max-width: 700px;">
+              </div>
+            </div>
+        </div>
+    </div>
+
+    
+      <div class="row row-cols-1 row-cols-md-5 g-4" id="container_extra">
+
+      <div>
+    
+  
+    <script src="/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
